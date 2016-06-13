@@ -209,3 +209,9 @@ Using [NPM](https://www.npmjs.org/):
 ```sh
 npm install swing
 ```
+
+## Build broke.
+npm run pragmatist build --es5
+mkdir dist/browser
+browserify dist/index.js > dist/browser/swing.js
+
